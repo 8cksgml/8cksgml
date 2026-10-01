@@ -1,0 +1,37 @@
+name: Update solved problems
+
+on:
+  schedule:
+    - cron: "0 15 * * *"   # 매일 한국 시각 자정 (UTC 15:00)
+  workflow_dispatch:         # Actions 탭에서 수동 실행 버튼
+
+permissions:
+  contents: write            # README를 커밋하기 위한 권한
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 프로필 레포 가져오기
+        uses: actions/checkout@v4
+
+      - name: 풀이 레포 가져오기
+        uses: actions/checkout@v4
+        with:
+          repository: Hiri-kor/algorithm
+          path: algorithm
+
+      - name: 파이썬 준비
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: README 갱신
+        run: python scripts/update_readme.py algorithm README.md
+
+      - name: 바뀐 경우에만 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || (git commit -m "chore: 최근 푼 문제 갱신" && git push)
