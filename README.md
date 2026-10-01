@@ -14,6 +14,6 @@
 ### 📂 Repositories
 | Repo | 내용 |
 | --- | --- |
-| [SSAFY_algorithm](https://github.com/8cksgml/SSAFY_algorithm) | 알고리즘 문제 풀이 |
-| [SSAFY_algorithm_exam](https://github.com/8cksgml/SSAFY_algorithm_exam) | 알고리즘 시험 대비 |
-| [SSAFY_Web](https://github.com/8cksgml/SSAFY_Web) | 웹 학습 |
+| [SSAFY_algorithm](https://github.com/Hiri-kor/SSAFY_algorithm) | 알고리즘 문제 풀이 |
+| [SSAFY_algorithm_exam](https://github.com/Hiri-kor/SSAFY_algorithm_exam) | 알고리즘 시험 대비 |
+| [SSAFY_Web](https://github.com/Hiri-kor/SSAFY_Web) | 웹 학습 |
