@@ -13,4 +13,9 @@
 
 ### 🧩 최근 푼 문제
 <!-- SOLVED:START -->
+**SWEA 총 1문제** (D1 1)
+
+| 날짜 | 난이도 | 문제 |
+| --- | --- | --- |
+| 2026-10-01 | D1 | [2072. 홀수만 더하기](https://github.com/Hiri-kor/algorithm/tree/main/SWEA/D1/2072.%E2%80%85%ED%99%80%EC%88%98%EB%A7%8C%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0) |
 <!-- SOLVED:END -->
