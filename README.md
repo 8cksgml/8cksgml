@@ -1,7 +1,7 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,100:3776AB&fontColor=FFFFFF&height=200&section=header&text=Hi,%20I'm%20HIRI&fontSize=40&fontAlignY=35)
 
 ### 👋 About Me
-> Python으로 문제를 푸는 개발자 지망생입니다.
+> Why not? Just try it.
 
 - 🎓 SSAFY 교육생
 - 🌱 알고리즘과 웹을 공부하고 있습니다.
