@@ -27,7 +27,7 @@ jobs:
           python-version: "3.12"
 
       - name: README 갱신
-        run: python scripts/update_readme.py algorithm README.md
+        run: python scripts/update_readme.py algorithm/problems.json README.md
 
       - name: 바뀐 경우에만 커밋
         run: |
