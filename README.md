@@ -3,8 +3,8 @@
 ### 👋 About Me
 > Why not? Just try it.
 
-- 🎓 SSAFY 교육생
-- 🌱 알고리즘과 웹을 공부하고 있습니다.
+- 🎓 Student at SSAFY (Samsung Software Academy For Youth), 16th cohort
+- 🌱 Studying AI · Web · Algorithms
 
 ### 🛠 Tech Stack
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
