@@ -13,9 +13,10 @@
 
 ### 🧩 최근 푼 문제
 <!-- SOLVED:START -->
-**SWEA 총 1문제** (D1 1)
+**총 2문제** (SWEA 1 · 프로그래머스 1)
 
-| 날짜 | 난이도 | 문제 |
-| --- | --- | --- |
-| 2026-10-01 | D1 | [2072. 홀수만 더하기](https://github.com/Hiri-kor/algorithm/tree/main/SWEA/D1/2072.%E2%80%85%ED%99%80%EC%88%98%EB%A7%8C%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0) |
+| 날짜 | 사이트 | 난이도 | 문제 |
+| --- | --- | --- | --- |
+| 2026-10-02 | 프로그래머스 | Lv.0 | [181952. 문자열 출력하기](https://github.com/Hiri-kor/algorithm/tree/main/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/181952.%E2%80%85%EB%AC%B8%EC%9E%90%EC%97%B4%E2%80%85%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0) |
+| 2026-10-01 | SWEA | D1 | [2072. 홀수만 더하기](https://github.com/Hiri-kor/algorithm/tree/main/SWEA/D1/2072.%E2%80%85%ED%99%80%EC%88%98%EB%A7%8C%E2%80%85%EB%8D%94%ED%95%98%EA%B8%B0) |
 <!-- SOLVED:END -->
