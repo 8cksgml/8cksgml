@@ -1,21 +1,4 @@
-"""SWEA 풀이 레포(algorithm)를 읽어서 프로필 README의 표시 구역을 갱신한다.
-
-사용법: python scripts/update_readme.py <algorithm 레포 경로> <README 경로>
-"""
-import re
-import sys
-from pathlib import Path
-from urllib.parse import quote
-
-# ── 설정 ──────────────────────────────────────────────
-REPO_URL = "https://github.com/Hiri-kor/algorithm/tree/main"
-RECENT_COUNT = 5  # 최근 몇 문제를 보여줄지
-START = "<!-- SOLVED:START -->"
-END = "<!-- SOLVED:END -->"
-
-# 백준허브 README 첫 줄 예: "# [D1] 홀수만 더하기 - 2072"
-# \s 는 일반 공백뿐 아니라 백준허브가 쓰는 특수 공백(U+2005)도 잡는다.
-HEADER_RE = re.compile(r"^#\s*\[(D\d)\]\s*(.+?)\s*-\s*(\d+)\s*$")
+"""알고리즘 풀이 레포(algorithm)를 읽어서 프로필 README의 표시 구역을 갱신한다.
 지원: SWEA, 프로그래머스 (백준허브가 올린 README 형식)
 
 사용법: python scripts/update_readme.py <algorithm 레포 경로> <README 경로>
